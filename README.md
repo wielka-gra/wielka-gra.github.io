@@ -1,2 +1,4 @@
-# wielka-gra.github.io
-Resultaty warszatów z tworzenia gry
+# wielka-gra
+
+[wielka-gra.github.io](wielka-gra.github.io), <p>
+[Dialogi](Dialogi)
