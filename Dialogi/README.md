@@ -1,10 +1,12 @@
-Jak pisać dialogi:
+## Jak pisać dialogi:
 [1] - niech plik ma rozszerzenie .json (np. dialogi.json)
+
 [2] - pisz według poniższego schematu:
 
+```
 {
     "Nazwa NPC": {
-        "unikalny kod rozmowy": {
+        "unikalny kod rozmowy np 0000": {
             "NPC": "To co mowi NPC",
             "User": {
                 "[1] Odpowiedz uzytkownika": "Kod kolejnej rozmowy",
@@ -30,5 +32,7 @@ Jak pisać dialogi:
         }
     }
 }
+```
+[3] - Mozesz sprawdzić, czy poprawnie piszesz dialogi. Wystarczy, że skopiujesz zawartość [NPC](NPC.py), wkleisz ją [tutaj](https://www.programiz.com/python-programming/online-compiler/), odpowiednio wkleisz zawartość swojego jsona do linijki 6 i kliniesz **Run**.
 
-[3] - Mozesz sprawdzić, czy poprawnie piszesz dialogi. Wystarczy, że skopiujesz zawartość [NPC](NPC.py), wkleisz ją [tutaj](https://www.programiz.com/python-programming/online-compiler/) i odpowiednio wkleisz zawartość swojego jsona do linijki 6.
+[4] - [tutaj](https://code.visualstudio.com/download) pobierzesz Visual Studio Code (przyjemnie się w tym pisze json'y)
