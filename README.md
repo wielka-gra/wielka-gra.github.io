@@ -2,4 +2,4 @@
 
 [wielka-gra.github.io](wielka-gra.github.io), <p>
 [Dialogi](Dialogi), <p>
-[Grafiki](postacie)
+[Grafiki](grafiki)
