@@ -1,18 +1,17 @@
 import pygame
-
-import Postac
+from Postac import Postac
 
 class Bohater(Postac):
-    def __init__(self, nazwa):
-        super().__init__("wyglad.jpg", "lokalizacja", "statystyki", nazwa, "cechy")
-
+    def __init__(self, nazwa, wyglad):
+        super().__init__(wyglad, "lokalizacja", "statystyki", nazwa, "cechy", "dialogi")
+        
     def chodz(self, event):
-        if event.type == pygame.KEYDOWN:
+         if event.type == pygame.KEYDOWN:
             super().lokalizacja.aktualizuj(event.key)
 
-        if event.type == pygame.KEYUP:
+         if event.type == pygame.KEYUP:
             super().lokalizacja.aktualizuj(event.key)
-
+        
     def interakcja(self,typ):
         pass
 
